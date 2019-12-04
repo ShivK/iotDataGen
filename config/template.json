@@ -1,0 +1,21 @@
+{
+        "sn": "$uuid",
+        "sensors": {
+                "light": {
+                        "value": "<$light_value>",
+                        "unit": "mLux"
+                },
+                "temp": {
+                        "value": "<$temp_value>",
+                        "unit": "mCelsius"
+                },
+                "pressure": {
+                        "value": "<$pressure_value>",
+                        "unit": "Pascal"
+                },
+                "humidity": {
+                        "value": "<$humidity_value>",
+                        "unit": "units"
+                }
+        }
+}

@@ -1,0 +1,5 @@
+{"sensors": {"humidity": {"value": 84, "unit": "units"}, "light": {"value": 56365, "unit": "mLux"}, "pressure": {"value": 90620, "unit": "Pascal"}, "temp": {"value": 25933, "unit": "mCelsius"}}, "sn": "dev-000000-0"}
+{"sensors": {"humidity": {"value": 38, "unit": "units"}, "light": {"value": 183886, "unit": "mLux"}, "pressure": {"value": 38132, "unit": "Pascal"}, "temp": {"value": 31621, "unit": "mCelsius"}}, "sn": "dev-000000-1"}
+{"levelstr": "o", "level": 9.4, "ts": "2015-01-01 14:01:00", "temp": -4.4, "uuid": "00"}
+{"levelstr": "l", "level": 8.3, "ts": "2015-01-01 14:01:00", "temp": -11.7, "uuid": "01"}
+{"levelstr": "f", "level": 8.3, "ts": "2015-01-01 14:01:00", "temp": 1.5, "uuid": "02"}

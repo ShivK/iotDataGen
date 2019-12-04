@@ -1,0 +1,29 @@
+[
+    {
+        "type":"complex",
+        "uuid":"dev-{:06d}-{:1d}",
+        "sampling":{"type":"random", "interval":5},
+        "num_copies":2,
+		"message_template":"template.json",
+        "sensors":[
+            {"type":"dev.uuid2",   "name":"uuid"},
+            {"type":"IntRange", "name":"light_value",     "min":0,     "max":300000},
+            {"type":"IntRange", "name":"temp_value",      "min":20000, "max":35000},
+            {"type":"IntRange", "name":"pressure_value",  "min":30000, "max":110000},
+            {"type":"IntRange", "name":"humidity_value",  "min":10,    "max":90}		
+        ]
+    },
+    {
+        "type":"simple",
+        "uuid":"{:02d}",
+        "sampling":{"type":"fixed", "interval": 10},
+        "num_copies":3,
+        "sensors":[
+            {"type":"timestamp",    "name":"ts"},
+            {"type":"dev.uuid",         "name":"uuid"},
+            {"type":"DecRange",   "name":"temp", "dec": 1, "min":-15.0, "max":3.0},
+            {"type":"selFromList",  "name":"level", "random": [1.1,3.2,8.3,9.4]},
+            {"type":"selFromList",        "name":"levelstr", "random": ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o"]}
+        ]
+    }
+]

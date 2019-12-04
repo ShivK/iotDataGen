@@ -1,0 +1,59 @@
+{
+	"XML": {
+		"version": 1.0,
+		"encoding": "UTF-8"
+	},
+	"Comment": " Example of a simple odf structure for a refrigerator. ",
+	"Objects": {
+		"xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"xsi:noNamespaceSchemaLocation": "odf.xsd",
+		"Object": {
+			"type": "Refrigerator Assembly Product",
+			"id": "dev-000000-0",
+			"InfoItem": {
+				"name": "temperature"
+				"description": "Temperature",
+				"value": [
+					{
+						"unit": "mCelsius",
+						"value":25933
+					}
+				]
+			},
+		"InfoItem": {
+			"name": "humidity",
+			"description": "Humidity",
+				"value": [
+					{
+						"unit": "numbers",
+						"value":84
+					}
+				]
+			}
+		},
+		"Object": {
+			"type": "Refrigerator Assembly Product",
+			"id": "dev-000000-1",
+			"InfoItem": {
+				"name": "temperature"
+				"description": "Temperature",
+				"value": [
+					{
+						"unit": "mCelsius",
+						"value":31621
+					}
+				]
+			},
+		"InfoItem": {
+			"name": "humidity",
+			"description": "Humidity",
+				"value": [
+					{
+						"unit": "numbers",
+						"value":38
+					}
+				]
+			}
+		},
+	}
+}

@@ -1,0 +1,10 @@
+{"sensors": {"pressure": {"value": 98582, "unit": "Pascal"}, "humidity": {"value": 81, "unit": "units"}, "temp": {"value": 21009, "unit": "mCelsius"}, "light": {"value": 145419, "unit": "mLux"}}, "sn": "dev-000000-0"}
+{"sensors": {"pressure": {"value": 95554, "unit": "Pascal"}, "humidity": {"value": 65, "unit": "units"}, "temp": {"value": 26367, "unit": "mCelsius"}, "light": {"value": 177632, "unit": "mLux"}}, "sn": "dev-000000-1"}
+{"ts": "2015-01-01 14:01:00", "level": 1.1, "temp": -2.9, "uuid": "00", "levelstr": "i"}
+{"ts": "2015-01-01 14:01:00", "level": 1.1, "temp": -14.4, "uuid": "01", "levelstr": "m"}
+{"ts": "2015-01-01 14:01:00", "level": 8.3, "temp": 1.7, "uuid": "02", "levelstr": "c"}
+{"sensors": {"pressure": {"value": 102893, "unit": "Pascal"}, "humidity": {"value": 42, "unit": "units"}, "temp": {"value": 24961, "unit": "mCelsius"}, "light": {"value": 224047, "unit": "mLux"}}, "sn": "dev-000000-0"}
+{"sensors": {"pressure": {"value": 83209, "unit": "Pascal"}, "humidity": {"value": 67, "unit": "units"}, "temp": {"value": 25371, "unit": "mCelsius"}, "light": {"value": 259975, "unit": "mLux"}}, "sn": "dev-000000-1"}
+{"ts": "2015-01-01 14:01:10", "level": 9.4, "temp": -12.4, "uuid": "00", "levelstr": "b"}
+{"ts": "2015-01-01 14:01:10", "level": 3.2, "temp": 1.0, "uuid": "01", "levelstr": "j"}
+{"ts": "2015-01-01 14:01:10", "level": 9.4, "temp": 0.1, "uuid": "02", "levelstr": "i"}
